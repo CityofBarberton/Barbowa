@@ -5,18 +5,18 @@ import (
     "github.com/dougblack/sleepy"
 )
 
-type Item struct { }
+type Contact struct { }
 
-func (item Item) Get(values url.Values) (int, interface{}) {
-    items := []string{"item1", "item2"}
-    data := map[string][]string{"items": items}
+func (contact Contact) Get(values url.Values) (int, interface{}) {
+    contacts := []string{"contact1", "contact2"}
+    data := map[string][]string{"contacts": contacts}
     return 200, data
 }
 
 func main() {
-    item := new(Item)
+    contact := new(Contact)
 
     var api = sleepy.NewAPI()
-    api.AddResource(item, "/items")
+    api.AddResource(contact, "/contacts")
     api.Start(8080)
 }
