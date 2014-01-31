@@ -1,0 +1,105 @@
+"company":{
+	"attributes":{},
+	"created_at":"Wed Aug 27 13:08:45 +0000 2008",
+	"created_by":"",
+	"email":[
+		"",
+		""
+	],
+	"full_name":"",
+	"id":"000000ffffff",
+	"name":"",
+	"phone":[
+		"",
+		""
+	],
+
+	"department":{
+		"attributes":{},
+		"created_at":"Wed Aug 27 13:08:45 +0000 2008",
+		"created_by":"",
+		"email":[
+			"",
+			""
+		],
+		"full_name":"",
+		"id":"000000ffffff",
+		"name":"",
+		"phone":[
+			"",
+			""
+		],
+		"url":"http://api.cityofbarberton.com/1/department/id/000000ffffff.json",
+
+		"position":{
+			"attributes":{},
+			"created_at":"Wed Aug 27 13:08:45 +0000 2008",
+			"created_by":"",
+			"email":[
+				"",
+				""
+			],
+			"full_name":"",
+			"id":"000000ffffff",
+			"name":"",
+			"phone":[
+				"",
+				""
+			],
+			"url":"http://api.cityofbarberton.com/1/position/id/000000ffffff.json",
+
+			"person":{
+				"attributes":{},
+				"created_at":"Wed Aug 27 13:08:45 +0000 2008",
+				"created_by":"",
+				"email":[
+					"",
+					""
+				],
+				"first_name":"Christopher",
+				"full_name":"Christopher Stoll",
+				"id":"000000ffffff",
+				"lang":"en",
+				"last_name":"Stoll",
+				"middle_name":"",
+				"phone":[
+					"",
+					""
+				],
+				"prefix":"Dr.",
+				"suffix":"Jr.",
+				"url":"http://api.cityofbarberton.com/1/person/id/000000ffffff.json"
+			},
+
+			"place":{
+				"attributes":{},
+				"bounding_box":{
+					"coordinates":
+					[[
+						[-77.119759,38.791645],
+						[-76.909393,38.791645],
+						[-76.909393,38.995548],
+						[-77.119759,38.995548]
+					]],
+					"type":"Polygon"
+				},
+				"city":"Barberton",
+				"country":"United States",
+				"country_code":"US",
+				"created_at":"Wed Aug 27 13:08:45 +0000 2008",
+				"created_by":"",
+				"full_name":"Barberton City Building",
+				"full_street":"576 W Park Ave",
+				"id":"000000ffffff",
+				"name":"City Building",
+				"place_type":"building",
+				"state":"Ohio",
+				"state_code":"OH",
+				"street":"Park Ave",
+				"street_address":"576",
+				"url":"http://api.cityofbarberton.com/1/place/id/000000ffffff.json",
+				"zip":""
+			}
+		}
+	}
+}
